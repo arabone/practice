@@ -1,0 +1,55 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+  flex-direction: row;
+  padding: 10px 12px;
+  justify-content: space-between;
+  flex-basis: auto;
+  width: 1440px;
+  height: 72px;
+  max-width: 600px;
+  display: flex;
+}
+
+h3#logo {
+  flex-direction: row;
+  height: 40px;
+  width: 100px;
+  left: 143px;
+  top: 16px;
+  padding: 10px 12px 10px 12px;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+}
+
+.personal ul {
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+.socials ul {
+  flex-direction: row;
+  justify-content: left;
+  gap: 15px;
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+}
+
+.icons {
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
