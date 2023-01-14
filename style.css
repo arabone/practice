@@ -1,0 +1,84 @@
+html,
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  max-width: 475px;
+  height: 604px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+}
+
+#navbar {
+  flex-direction: row;
+  padding: 10px 12px;
+  justify-content: space-between;
+  flex-basis: auto;
+  max-width: 600px;
+  display: flex;
+}
+
+main {
+  width: 375px;
+  top: 92px;
+  border-radius: 2px;
+  padding: 114px 24px 114px 24px;
+  height: 604px;
+}
+
+h3#logo {
+  flex-direction: row;
+  height: 40px;
+  width: 100px;
+  left: 143px;
+  top: 16px;
+  padding: 10px 12px 10px 12px;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+}
+
+.personal ul {
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+.socials ul {
+  flex-direction: row;
+  justify-content: left;
+  gap: 15px;
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+}
+
+.icons {
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: nowrap;
+}
